@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>웹프로그래밍 데모</title>
+    <link rel="stylesheet" href="style.css"
+  </head>
+  <body>
+    <!-- 메뉴 -->
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">WebDemo</div>
+        <ul class="nav">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="about.html">About</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+          <li>
+            <a href="project.html">Project</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- 메인섹션 -->
+    <section class="main">
+      <div class="container">
+        <div class="container">
+          <h1>웹프로그래밍, web Programing</h1>
+
+          <h3>
+            웹 개발자를 위한 온라인 메뉴얼 :
+            <a href="https://www.w3schools.com/">W3chools</a>
+          </h3>
+
+          <p>
+            웹프로그래밍의 3가지 요소 :
+            <a href="https://www.w3chools.com/html/">HTML5 </a>
+
+            <a href="https://www.w3chools.com/css/">CSS3 </a>
+
+            <a href="https://www.w3chools.com/js/">Javascript </a>
+          </p>
+
+          <h3>현재시간 : <span id="time"></span></h3>
+
+          <hr />
+
+          <p>
+            배경색 바꾸기 :
+            <button onclick="pink()">Pink</button>
+            <button onclick="lightblue()">Lightblue</button>
+            <button onclick="yellow()">Yellow</button>
+            <button onclick="reset()">Reset</button>
+          </p>
+
+          <p>
+            배워봅시다 :
+            <button onmouseover="showhtml()" onmouseout="hide()">HTML5</button>
+            <button onmouseover="showcss()" onmouseout="hide()">CSS3</button>
+            <button onmouseover="showjs()" onmouseout="hide()">
+              Javascript
+            </button>
+          </p>
+          <hr />
+          <br />
+          <div>
+            <img id="fig" height="200px" />
+            <p id=""
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="main.js"></script>
+  </body>
+</html>
