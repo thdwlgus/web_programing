@@ -30,5 +30,5 @@ function showjs() {
 }
 function hide() {
   document.getElementById('fig').src = 'img/javascript.jpg'
-  document.getElementById('desc').innerHTML =
+  document.getElementById('desc').innerHTML = 'asdf'
 }
