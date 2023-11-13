@@ -65,7 +65,7 @@ export default function PaymentPage() {
           </div>
         ))}
         {errors.paymentMethod && (
-          <div className="text-red-500">{errors.paymentMethod.message}</div>
+          <div className="text-red-400">{errors.paymentMethod.message}</div>
         )}
         <div className="mb-4 flex justify-between">
           <button
